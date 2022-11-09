@@ -4,9 +4,9 @@
 Applied AI instance segmentation project with Detectron2.  <br /><br />
 
 ## included Items:
-  - Exam.py:
+  - [exam.py](exam.py):
     - Includes the code.
-  - Exam.mp4:
+  - [exam.mp4](exam.mp4):
     - Includes the video. <br /><br />
 
 ## Steps to Achieve Results:  
