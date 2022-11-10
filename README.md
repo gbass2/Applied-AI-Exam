@@ -6,8 +6,7 @@ Applied AI instance segmentation exam with Detectron2.  <br /><br />
 ## included Items:
   - [exam.py](exam.py):
     - Includes the code.
-  - [exam.mp4](exam.mp4):
-    - Includes the video. <br /><br />
+  - Results shown below. <br /><br />
 
 ## Steps to Achieve Results:  
 1. The first step was installing Detectron2. <br />
@@ -26,4 +25,5 @@ Applied AI instance segmentation exam with Detectron2.  <br /><br />
   - The exam.mp4 file includes a video of the result. <br />
   
   ## Inference Results
-  ![Single Image Inference](media/image_inference.jpg "Single Image Inference)")
+![Single Image Inference](media/image_inference.jpg "Single Image Inference)")
+![Video Inference](media/video_inference.gif "Video Inference)")
