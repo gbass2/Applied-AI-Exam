@@ -6,7 +6,7 @@ Applied AI instance segmentation exam with Detectron2.  <br /><br />
 ## included Items:
   - [exam.py](exam.py):
     - Includes the code.
-  - [exam.mp4](exam.mp4):
+  - [exam.mp4](media/exam.mp4):
     - Includes the video. <br /><br />
 
 ## Steps to Achieve Results:  
