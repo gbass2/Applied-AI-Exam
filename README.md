@@ -1,4 +1,4 @@
-# Applied-AI-Project
+# Applied-AI-Exam
 
 ## Description:
 Applied AI instance segmentation exam with Detectron2.  <br /><br />
