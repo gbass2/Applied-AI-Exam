@@ -23,4 +23,7 @@ Applied AI instance segmentation exam with Detectron2.  <br /><br />
   - The webcam was opened with VideoCapture and the frame was passed to the predictor.
   - The only difference between a signle image and the webcam is matplotlib animation function needed to be used to have a video steam plotted with       
     matplotlib.
-  - The exam.mp4 file includes a video of the result.
+  - The exam.mp4 file includes a video of the result. <br />
+  
+  ## Inference Results
+  ![Single Image Inference](media/image_inference.jpg "Single Image Inference)")
