@@ -45,7 +45,7 @@ class Predict():
         self.fourcc = cv2.VideoWriter_fourcc(*'MP4V')
         self.writer = cv2.VideoWriter(self.video_name, self.fourcc, 5, (640,480)) # Create the video writer.
 
-    # Predicts on a single frame.
+    # Predicts on a single frame and save it.
     def predictFrame(self):
         ret, frame = self.cam.read() # Read frame from the webcam.
         
@@ -59,10 +59,12 @@ class Predict():
             
             # Make sure the frame is colored            
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            
+            cv2.imwrite('prediction.jpg', cv2.cvtColor(out, cv2.COLOR_BGR2RGB))
 
             return frame, out
         else:
-            return None
+            return
 
     # Predict on multiple frames.
     def predictVideo(self):
