@@ -1,7 +1,7 @@
 # Applied-AI-Project
 
 ## Description:
-Applied AI instance segmentation project with Detectron2.  <br /><br />
+Applied AI instance segmentation exam with Detectron2.  <br /><br />
 
 ## included Items:
   - [exam.py](exam.py):
